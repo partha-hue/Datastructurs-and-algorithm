@@ -18,3 +18,9 @@ if __name__ == "__main__":
 
     for i in range(newsize):
         print(arr[i], end=" ")
+
+
+def remuvedup(arr):
+    new = set()
+    idx = 0
+
